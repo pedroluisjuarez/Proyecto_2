@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PantallaPrincipalController">
+   <children>
+      <MenuBar fx:id="Menu" layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+         <menus>
+            <Menu fx:id="ClientesIndividuales" mnemonicParsing="false" text="Clientes">
+               <items>
+                  <MenuItem fx:id="AltasIndividual" mnemonicParsing="false" onAction="#AltaIndividual" text="Crear, Modificar y Eliminar" />
+               </items>
+            </Menu>
+            <Menu fx:id="ClientesEmpresa" mnemonicParsing="false" text="Productos">
+               <items>
+                  <MenuItem fx:id="BajasIndividual" mnemonicParsing="false" onAction="#BajaIndividual" text="Crear, Modificar y Eliminar" />
+               </items>
+            </Menu>
+            <Menu fx:id="Productos" mnemonicParsing="false" text="Ordenes de Compra">
+               <items>
+                  <MenuItem fx:id="CambiosIndividual" mnemonicParsing="false" onAction="#CambioIndividual" text="Crear, Modificar y Eliminar" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

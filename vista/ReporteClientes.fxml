@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="337.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ReporteClientesController">
+   <children>
+      <TableView fx:id="tableInformacion" layoutX="15.0" layoutY="73.0" onMouseClicked="#seleccionar" prefHeight="256.0" prefWidth="579.0">
+         <columns>
+            <TableColumn fx:id="colNombres" prefWidth="131.0" text="Nombres" />
+            <TableColumn fx:id="colApellidos" prefWidth="109.0" text="Apellidos" />
+            <TableColumn fx:id="colTelefono" prefWidth="108.0" text="Telefono" />
+            <TableColumn fx:id="colDPI" prefWidth="138.0" text="DPI" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnAgregar" layoutX="120.0" layoutY="37.0" mnemonicParsing="false" onAction="#Agregar" text="Agregar Cliente" />
+      <Button fx:id="btnModificar" layoutX="233.0" layoutY="37.0" mnemonicParsing="false" onAction="#Modificar" text="Modificar Cliente" />
+      <Button fx:id="btnEliminar" layoutX="351.0" layoutY="37.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar Cliente" />
+   </children>
+</AnchorPane>

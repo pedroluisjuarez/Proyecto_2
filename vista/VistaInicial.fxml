@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300" prefWidth="400" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaInicialController">
+   <children>
+      <Label layoutX="102.0" layoutY="51.0" text="PROYECTO II CON JAVAFX">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="txtUser" layoutX="169.0" layoutY="114.0" prefHeight="25.0" prefWidth="137.0" text="admin" />
+      <Label layoutX="80.0" layoutY="155.0" text="CONTRASEÑA" />
+      <Label layoutX="92.0" layoutY="118.0" text="USUARIO" />
+      <TextField fx:id="txtPassword" layoutX="169.0" layoutY="151.0" prefHeight="25.0" prefWidth="137.0" text="admin" />
+      <Button fx:id="btnValidar" layoutX="102.0" layoutY="204.0" mnemonicParsing="false" onAction="#btmInicio" prefHeight="25.0" prefWidth="83.0" text="INICIAR" />
+      <Button fx:id="btmCerrar" layoutX="207.0" layoutY="204.0" mnemonicParsing="false" onAction="#btmCerrar" prefHeight="25.0" prefWidth="83.0" text="CERRAR" />
+   </children>
+</AnchorPane>
